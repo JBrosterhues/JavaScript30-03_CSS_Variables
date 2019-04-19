@@ -1,0 +1,33 @@
+:root {
+    --spacing: 20px;
+    --blur: 5px;
+    --color: #067f05;
+}
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    position: relative;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+#input-controls {
+    font-size: 2rem;
+    text-align: center;
+}
+.control-labels {
+    margin-left: 20px;
+}
+#img-piz-arlara {
+    width: 1024px;
+    height: 576px;
+    background: var(--color);
+    filter: blur(var(--blur));
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--spacing);
+}

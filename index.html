@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>CSS Variables</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <main>
+            <h1>Updating CSS Variables with JavaScript</h1>
+            <div id="input-controls">
+                <label class="control-labels">Spacing:</label>
+                <input
+                    id="spacing"
+                    type="range"
+                    min="0"
+                    max="200"
+                    value="20"
+                    data-unit="px"
+                />
+                <label class="control-labels">Blur:</label>
+                <input
+                    id="blur"
+                    type="range"
+                    min="0"
+                    max="20"
+                    value="5"
+                    data-unit="px"
+                />
+                <label class="control-labels">Background Color:</label>
+                <input id="color" type="color" value="#067F05" data-unit="" />
+            </div>
+            <img
+                id="img-piz-arlara"
+                src="img/Piz_Arlara.jpg"
+                alt="Mountain Piz
+            Arlara in Italy"
+            />
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
