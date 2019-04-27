@@ -1,2 +1,2 @@
 # JavaScript30-03_CSS_Variables
-Use CSS variables together with JavaScript
+Wes Bos' JavaScript30 challenge: 03 - CSS Variables
